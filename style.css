@@ -1,0 +1,74 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: black;
+    background-color: black;
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    z-index: 1; 
+}
+
+h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.6); 
+}
+
+
+.link-card {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: #333;
+    position: relative;
+}
+
+
+.link-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.8);
+}
+
+
+.link-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.link-text {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+}
+
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.8);
+}
