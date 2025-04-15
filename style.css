@@ -1,8 +1,6 @@
 body {
     font-family: 'Helvetica Neue', sans-serif;
-    background-color: black;
-    background-color: black;
-    background-size: 100px 100px;
+    background: url('ChatGPT\ Image\ Apr\ 13\,\ 2025\,\ 05_33_33\ PM.png'); /* Replace with your image path */
     background-repeat: repeat;
     display: flex;
     justify-content: center;
@@ -12,6 +10,7 @@ body {
 }
 
 .container {
+    margin-top: 20rem;
     text-align: center;
     z-index: 1; 
 }
